@@ -23,10 +23,10 @@
     "cliCommands" : [
       "./cicd/scripts/run-cursor-agent.sh \"user request is in 'input' folder, read all files there and do what is requested\""
     ],
-    "outputType" : "agent_response",
-    "ticketContextDepth" : 0,
+    "outputType" : "none",
+    "ticketContextDepth" : 2,
     "attachResponseAsFile" : false,
-    "skipAIProcessing" : false,
+    "skipAIProcessing" : true,
     "inputJql" : "key = TP-389",
     "initiator" : "712020:2a248756-40e8-49d6-8ddc-6852e518451f",
     "postJSAction" : "agents/createQuestionsAndAssignForReview.js"
