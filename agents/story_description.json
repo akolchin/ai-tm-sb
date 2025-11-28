@@ -21,7 +21,7 @@
       "fewShots" : ""
     },
     "cliCommands" : [
-      "./cicd/scripts/run-cursor-agent.sh \"user request is in 'input' folder, read all files there and do what is requested\""
+      "bash ./cicd/scripts/run-cursor-agent.sh \"user request is in 'input' folder, read all files there and do what is requested\""
     ],
     "outputType" : "field",
     "fieldName" : "Description",
